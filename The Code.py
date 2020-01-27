@@ -71,7 +71,7 @@ while(1==1):                                                                    
       
     if answer == "help":                                                                           #only I have the commands memorized so a player may need to know what to do.
       print("You are in a", a, "x", b, "grid with",len(itemlocation), "items. Find the exit to delve deeper into the dungeon!")
-      print("Enchanted items bind to your player")
+      print("Enchanted items bind to your character and cannot be removed"
       print("*north* - to move north")
       print("*south* - to move south")
       print("*east* - to move east")
@@ -167,7 +167,7 @@ while(1==1):                                                                    
           print("")                                                                                #that came with the amulet so I madeit irremoveable.
           print("The Amulet has bound itself to you and it is irremoveable.")
         if answer2 == "Ring of Shields":                                                           #tbh, i was lazy, similar reason for the amulet
-          print("")                                                                                #^^^^^^^^^^^^^^^.
+          print("")                                                                                #that came with the amulet so I madeit irremoveable.
           print("The Ring has bound itself to you and it is irremoveable.")
         if answer2 == "Longsword":
           swordcount = 0
