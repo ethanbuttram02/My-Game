@@ -166,8 +166,8 @@ while(1==1):                                                                    
         if answer2 == "Amulet of Health":                                                          #tbh, i was lazy and didnt wanna fix the majour health bug
           print("")                                                                                #that came with the amulet so I madeit irremoveable.
           print("The Amulet has bound itself to you and it is irremoveable.")
-        if answer2 == "Ring of Shields":                                                           #tbh, i was lazy and didnt wanna fix the majour health bug
-          print("")                                                                                #that came with the amulet so I madeit irremoveable.
+        if answer2 == "Ring of Shields":                                                           #tbh, i was lazy, similar reason for the amulet
+          print("")                                                                                #^^^^^^^^^^^^^^^.
           print("The Ring has bound itself to you and it is irremoveable.")
         if answer2 == "Longsword":
           swordcount = 0
