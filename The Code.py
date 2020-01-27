@@ -71,7 +71,7 @@ while(1==1):                                                                    
       
     if answer == "help":                                                                           #only I have the commands memorized so a player may need to know what to do.
       print("You are in a", a, "x", b, "grid with",len(itemlocation), "items. Find the exit to delve deeper into the dungeon!")
-      print("Enchanted items bind to your character and cannot be removed"
+      print("Enchanted items bind to your character and cannot be removed")
       print("*north* - to move north")
       print("*south* - to move south")
       print("*east* - to move east")
@@ -214,3 +214,10 @@ while(1==1):                                                                    
       shieldcount = shieldcount + 1
       print("")
       print("Big and heavy, the shield offers you greater protection against monsters.")
+    
+    if answer == "exit":
+      answer2 = str(input("Are you sure? "))
+      if answer2 == "yes":
+        exit()
+      if answer2 == "no":
+        answer2 == ("")
